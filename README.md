@@ -69,6 +69,18 @@ This project uses the [Stable Diffusion 3.5 large model](https://huggingface.co/
 ## How to Use
 
 1. Clone the repository:
-   ```bash
    git clone https://github.com/leybzon/Quantization-Energy-Efficiency.git
    cd Quantization-Energy-Efficiency
+2. Install dependencies:
+   pip install torch transformers diffusers pynvml
+3. Run the script:
+   python stable-diffusion-3.5-large-test-with-power.py
+4. Check outputs:
+   Generated images
+   CSV files with detailed and summarized results
+
+## Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests to enhance the script, add prompts, or suggest new quantization methods.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
